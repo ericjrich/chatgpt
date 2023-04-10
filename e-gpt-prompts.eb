@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
-#2023-04-10 @ 1055_est EJR
+#2023-04-10 @ 1120_est EJR
 #GPT prompt paster using a delayed response form xdotool
+#
+#___________________KEYBINDINGS________________________________
+#CUSTON KDB BINDING EXECUTABLE:
+# x-terminal-emulator -e 'bash -ic e-gpt-prompts.eb'
+#EXAMPLE: HOW TO SETUP THE BINDING TO 'CTRL+ALT+SUPER+G' (BASED ON: MINT 21.1 CINNAMON):
+# gsettings set org.cinnamon.desktop.keybindings.custom-keybindings:/org/cinnamon/desktop/keybindings/custom-keybindings/custom0/ binding '<Control><Super><Alt>G'
+# gsettings set org.cinnamon.desktop.keybindings.custom-keybindings:/org/cinnamon/desktop/keybindings/custom-keybindings/custom0/ command 'x-terminal-emulator -e "bash -ic e-gpt-prompts.eb"'
+# gsettings set org.cinnamon.desktop.keybindings.custom-keybindings:/org/cinnamon/desktop/keybindings/custom-keybindings/custom0/ name 'gptprompts'
+# dconf update
+
 
 #--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
 #PREP
